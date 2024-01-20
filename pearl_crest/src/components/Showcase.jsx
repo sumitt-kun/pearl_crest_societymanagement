@@ -6,7 +6,7 @@ function Showcase(){
     useEffect(() => {
         const handleScroll = () => {
             const scrollY = window.scrollY;
-            const threshold = 0; // Adjust this value based on your needs
+            const threshold = -1; // Adjust this value based on your needs
 
             setIsVisible(scrollY > threshold);
         };

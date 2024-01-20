@@ -1,13 +1,17 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Showcase from "./Showcase";
-import Pillars from "./Pillars";
+import Pillarmem from "./Pillars";
+import Features from "./Features";
+import Footer from "./Footer";
 function Home(){
     return (
         <div>
             <Navbar />
             <Showcase />
-            <Pillars />
+            <Pillarmem />
+            <Features />
+            <Footer />
         </div>
     )
 }

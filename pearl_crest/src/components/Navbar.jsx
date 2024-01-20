@@ -2,9 +2,9 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="flex my-2">
+    <div className="flex z-20 my-2">
       <div className="p-2 ml-10 text-3xl flex">
-        <p className="m-2 py-2 invisible md:visible flex"><img className="px-2" src="../../public/static/images/favicon-32x32.png" alt="" />Pearl Crest</p>
+        <p className="m-2 py-2 invisible md:visible flex"><img className="px-2" src="../../public/static/images/favicon-32x32.png" alt="" />PEARL CREST</p>
       </div>
       <div className="ml-auto">
         <ul className="flex">
