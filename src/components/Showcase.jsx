@@ -17,7 +17,7 @@ function Showcase(){
         };
     }, []);
     return(
-        <div className="m-0 md:h-[30rem] bg-[url('../../public/static/images/showcase_bg-mobile.avif')] md:bg-[url('../../public/static/images/showcase_bg.jpg')] bg-cover bg-right-bottom md:bg-right-top">
+        <div className="m-0 md:h-[30rem] bg-[url('/static/images/showcase_bg-mobile.avif')] md:bg-[url('/static/images/showcase_bg.jpg')] bg-cover bg-right-bottom md:bg-right-top">
         <div className="flex flex-col-reverse md:flex-row items-center p-6 mx-auto space-y-0">
             <div className="flex flex-col ml-5 md:mb-32 space-y-12 md:w-2/3">
                 <h2 className="w-full m-0 md:p-1 md:mt-10 text-3xl text-center md:text-5xl md:text-left text-black ">From Payments to Complaints: Pearl Crest Puts it All at Your Fingertips</h2>
@@ -26,9 +26,9 @@ function Showcase(){
                 </button>
             </div>
             <div className="w-1/2 h-full invisible md:visible">
-                <img className={`${isVisible ? "show":""} showcase_img1 overflow-x-hidden w-1/3 border-2 border-black  absolute top-[60%] left-[63%] rounded-3xl rotate-12`} src="../../public/static/images/PC2.jpg" alt="" />\
-                <img className={`${isVisible ? "show":""} showcase_img2 w-1/3 border-2 border-black  absolute top-[20%] left-[52%] rounded-3xl rotate-12`} src="../../public/static/images/PC4.jpg" alt="" />\
-                <img className={`${isVisible ? "show":""} showcase_img3 w-1/3 border-2 border-black absolute top-1/6 left-[32%] rounded-3xl rotate-12`} src="../../public/static/images/PC5.jpg" alt="" />\
+                <img className={`${isVisible ? "show":""} showcase_img1 overflow-x-hidden w-1/3 border-2 border-black  absolute top-[60%] left-[63%] rounded-3xl rotate-12`} src="/static/images/PC2.jpg" alt="" />\
+                <img className={`${isVisible ? "show":""} showcase_img2 w-1/3 border-2 border-black  absolute top-[20%] left-[52%] rounded-3xl rotate-12`} src="/static/images/PC4.jpg" alt="" />\
+                <img className={`${isVisible ? "show":""} showcase_img3 w-1/3 border-2 border-black absolute top-1/6 left-[32%] rounded-3xl rotate-12`} src="/static/images/PC5.jpg" alt="" />\
             </div>
         </div>
         <div className="md:hidden h-full m-1 grid gap-4 overflow-hidden">

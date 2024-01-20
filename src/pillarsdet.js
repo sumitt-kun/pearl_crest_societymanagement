@@ -12,7 +12,7 @@ const pillarsdet = [
     {
         name: "Mr. Manish",
         post: "Treasurer",
-        img_URL: "/public/static/images/treasurer.jpg"
+        img_URL: "/static/images/treasurer.jpg"
     }
 ]
 export default pillarsdet;
