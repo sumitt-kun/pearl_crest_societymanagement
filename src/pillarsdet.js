@@ -2,17 +2,17 @@ const pillarsdet = [
     {
         name: "Mr. Ravindra Prasad",
         post: "President",
-        img_URL: "../../public/static/images/president.jpg"
+        img_URL: "/static/images/president.jpg"
     },
     {
         name: "Mr. Sunil Kumar Singh",
         post: "Secretary",
-        img_URL: "../../public/static/images/the secretary.jpg"
+        img_URL: "/static/images/the secretary.jpg"
     },
     {
         name: "Mr. Manish",
         post: "Treasurer",
-        img_URL: "../../public/static/images/treasurer.jpg"
+        img_URL: "/public/static/images/treasurer.jpg"
     }
 ]
 export default pillarsdet;
