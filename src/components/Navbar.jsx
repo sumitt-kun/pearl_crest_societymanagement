@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="flex z-20 my-2">
@@ -27,9 +27,11 @@ function Navbar() {
             </button>
           </li>
           <li className="p-3 text-lg px-10 mx-5 hover:bg-black hover:text-white border-black border-2 m-2 rounded-l-3xl rounded-r-3xl">
-            <button >
+            <Link to="/db">
+            <button>
                 Login
             </button>
+            </Link>
           </li>
           <li className="p-3 text-lg hover:opacity-90 text-white bg-black px-10 mx-5 mr-8 m-2 border-black border-2 rounded-l-3xl rounded-r-3xl">
             <button>

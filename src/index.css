@@ -54,7 +54,3 @@ body {
 .show{
   transform: translateX(0);
 }
-
-.features{
-  background-color: #FBF9F1;
-}

@@ -17,7 +17,7 @@ function Showcase(){
         };
     }, []);
     return(
-        <div className="m-0 md:h-[30rem] bg-[url('/static/images/showcase_bg-mobile.avif')] md:bg-[url('/static/images/showcase_bg.jpg')] bg-cover bg-right-bottom md:bg-right-top">
+        <div className="m-0 md:h-[30rem]">
         <div className="flex flex-col-reverse md:flex-row items-center p-6 mx-auto space-y-0">
             <div className="flex flex-col ml-5 md:mb-32 space-y-12 md:w-2/3">
                 <h2 className="w-full m-0 md:p-1 md:mt-10 text-3xl text-center md:text-5xl md:text-left text-black ">From Payments to Complaints: Pearl Crest Puts it All at Your Fingertips</h2>
