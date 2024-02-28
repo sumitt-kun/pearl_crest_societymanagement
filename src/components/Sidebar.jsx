@@ -9,7 +9,7 @@ function Sidebar() {
     <div className='bg-neutral-900 w-60 p-3 flex flex-col text-white'>
         <div className='flex gap-2 px-1 py-3'>
             <img className="w-[15%] ml-2" src="/static/images/favicon-32x32.png" alt="" />
-            <span className='px-2 text-xl text-neutral-100'>PEARL CREST</span>
+            <span className='px-2 text-lg text-neutral-100'>PEARL CREST</span>
         </div>
         <div className='flex-1 py-8 flex flex-col gap-0.5'>
             {sidebar_det.map(ele => (

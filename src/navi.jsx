@@ -2,8 +2,7 @@ import {HiOutlineViewGrid} from 'react-icons/hi'
 import { RiCommunityFill } from "react-icons/ri";
 import { MdOutlinePayment, MdEmojiPeople, MdAccountCircle, MdLogout } from "react-icons/md";
 import { FaRegSadCry, FaReceipt, FaRupeeSign, FaLock } from "react-icons/fa"
-import { IoChatbubbleSharp } from "react-icons/io5";
-
+import { CiReceipt } from "react-icons/ci";
 export const sidebar_det = [
     {
         key: 'dashboard',
@@ -44,7 +43,7 @@ export const sidebar_det = [
     {
         key: 'complains',
         label: 'Register Complaints',
-        path: '/db/complains',
+        path: '/db/addcomplain',
         icon: FaRegSadCry
     },
     {
@@ -52,5 +51,11 @@ export const sidebar_det = [
         label: 'Payment History',
         path: '/db/trackpay',
         icon: FaReceipt
+    },
+    {
+        key: 'addpaymentvoucher',
+        label: 'Payment Vouchers',
+        path: '/db/addpv',
+        icon: CiReceipt
     }
 ];
