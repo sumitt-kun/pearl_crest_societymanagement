@@ -1,4 +1,3 @@
-import React from "react";
 const pillarsdet = [
     {
         name: "Mr. Ravindra Prasad",

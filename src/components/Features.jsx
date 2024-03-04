@@ -31,9 +31,9 @@ const Features = () => {
                   {ele.title}
                   <span className="ml-auto">
                     {isOpen[index] ? (
-                      <FaMinus className="m-1 cursor-pointer" onClick={() => toggleDropdown(index)} />
+                      <FaPlus className="m-1 cursor-pointer rotate-45 duration-200" onClick={() => toggleDropdown(index)} />
                     ) : (
-                      <FaPlus className="m-1 cursor-pointer" onClick={() => toggleDropdown(index)} />
+                      <FaPlus className="m-1 cursor-pointer duration-200" onClick={() => toggleDropdown(index)} />
                     )}
                   </span>
                 </p>

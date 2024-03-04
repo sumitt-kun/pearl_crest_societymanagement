@@ -3,7 +3,6 @@ import {HiOutlineChatAlt, HiOutlineSearch, HiOutlineBell} from 'react-icons/hi'
 import { Popover, Transition, Menu } from '@headlessui/react'
 import { useNavigate } from 'react-router-dom'
 import classNames from 'classnames';
-
 export default function Header() {
   const navigate = useNavigate();
   return (
@@ -80,7 +79,7 @@ export default function Header() {
         <div className='inline-flex'>
           <Menu.Button className="ml-2 inline-flex rounded-full focus:outline-none focus:ring-2 focus:ring-neutral-400">
             <span className='sr-only'>Open user menu</span>
-            <div className="h-10 w-10 rounded-full bg-sky-500 bg-cover bg-no-repeat bg-center" style={{backgroundImage: ''}}>
+            <div className="h-10 w-10 rounded-full bg-[url('public/static/images/treasurer.jpg')] bg-cover bg-no-repeat bg-center" style={{backgroundImage: ''}}>
               <span className='sr-only'>Kushagra Sahay</span>
             </div>
           </Menu.Button>
